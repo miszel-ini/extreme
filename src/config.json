@@ -1,0 +1,19 @@
+{
+    "token": "MTExMjE4Mzc1MDAwOTI5NDkzMA.GjUvqB.ozDw4z2Xrd7YyzuzqlPyzc_784GA0KAAsOA_3E",
+
+    "verifyPassword": "haslo", 
+    "verifyRoleID": "1114684290228301937",
+    
+    "channelsID": {
+        "porzuconyPojazd": "1113225706361593969",
+        "zwrotPieniedzy": "1117397486009593866",
+        "przepisaniePojazdu": "1117398806049341560",
+        "odejscieGracza": "1117402624065540167",
+        "karyPieniezne": "1122609232869601290"
+    },
+
+    "embedSettings": {
+        "color": "0x4287f5",
+        "secondColor": "0xffffff"
+    }
+}

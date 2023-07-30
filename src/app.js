@@ -14,12 +14,14 @@ const client = new Client({
 
 //implement config file
 const config = require('./config.json');
+const keepAlive = require('./server');
 //creating new commands collection
 client.commands = new Collection();
 
 
 //logging bot and load important functions
 client.login(config.token).then(() => {
+    keepAlive();
     loadCommands(client),
     loadEvents(client)
 })
